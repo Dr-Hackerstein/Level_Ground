@@ -212,6 +212,103 @@
 
         /*------------------------*/
 
+
+
+        /*----------FOOTER--------------*/
+
+        footer {
+            background-color: rgb(21, 43, 64);
+            color: white;
+            padding: 2rem 7.5rem;
+            width: 100%;
+            clear: both;
+            height: 35vh;
+        }
+
+        .footer-left{
+            float: left;
+            width: 20%;
+            text-align: start;
+            padding-bottom: 2rem;
+        }
+
+        .footer-right{
+            text-align: end;
+            float: right;
+            width: 20%;
+            padding-bottom: 2rem;
+        }
+
+
+        .footer-bottom {
+            clear: both;
+            float: center;
+            width: 100%;
+            border: 1px solid lightgrey;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            padding-bottom: 2rem;
+            text-align: left;
+        }
+
+        .nav-footer ul *{
+            list-style: none;
+            float: left;
+        }
+
+        footer div span {
+            color: rgb(77, 85, 118);
+            display: block;
+            font-size: 1.5rem;
+            padding-top: 1rem;
+        }
+
+        footer div a {
+            color: white;
+            font-size: 1.5rem;
+            padding: 0 0;
+            padding-right: 1.5rem;
+            padding-bottom: 2rem;
+        }
+
+        .footer-right h4 {
+            font-size: 1.2rem;
+            text-align: left;
+            padding-left: 40%;
+        }
+
+
+        .footer-right address{
+            font-size: 1.2rem;
+            color: rgb(208, 206, 206);
+            text-align: left;
+            padding-left: 40%;
+            padding-top: 1rem;
+        }
+
+        .footer-right a{
+            text-align: left;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+
+        .footer-bottom p{
+            padding-top: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .footer-bottom img{
+            float: right;
+        }
+
+        /*------------------------------*/
+
+
+
+
+
     </style>
 
 </head>
@@ -343,8 +440,8 @@
     </section>
 
     <footer>
-        <div>
-            <nav>
+        <div class="footer-left">
+            <nav class="nav-footer">
                 <ul>
                     <li><img src="" alt="facebook"></li>
                     <li><img src="" alt="twitter"></li>
@@ -352,46 +449,42 @@
                 </ul>
             </nav>
 
-            <span>Site Map</span>
-            <nav>
-                <ul>
-                    <li><a href="#classes">Classes</a></li>
-                    <li><a href="#HireUs">Hire Us</a></li>
-                </ul>
-            </nav>
+            <span>SITE MAP</span>
+
+            <a href="#classes">Classes</a>
+            <a href="#HireUs">Hire Us</a>
 
             <span>CONTRIBUTE</span>
-            <nav>
-                <ul>
-                    <li><a href="#give">Give</a></li>
-                    <li><a href="#volunteer">Volunteer</a></li>
-                </ul>
-            </nav>
+
+            <a href="#give">Give</a>
+            <a href="#volunteer">Volunteer</a>
+
         </div>
 
-        <div>
+        <div class="footer-right">
             <h4>LEVEL GROUND</h4>
             <h4>MIXED MARTIAL ARTS</h4>
 
             <address>
-                50 Milk Street, Floor 17
-                Boston, MA, 02109
+                50 Milk Street, Floor 17 <br>
+                Boston, MA, 02109 <br>
+                410 533 2210
             </address>
-                       
-            <span>410 533 2210</span>
-
 
             <a href="#">Ali@LevelGroundMMA.org</a>
 
         </div>
 
-        <div>
-            <p>
-                Level Ground Mixed Martial Arts is a tax-exempt, 501(c)3 organization under the IRS. EIN 46-3915852.
-            </p>
+        <center>
+            <div class="footer-bottom">
+                <p>
+                    Level Ground Mixed Martial Arts is a tax-exempt, 501(c)3 organization under the IRS. EIN 46-3915852.
+                </p>
+    
+                <img src="" alt="LG logo">
+            </div>
+        </center>
 
-            <img src="" alt="LG logo">
-        </div>
     </footer>
     
 </body>
